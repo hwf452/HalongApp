@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/while1" >
+
+    <FrameLayout
+        android:id="@+id/topFrameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/top_title_fl_height"
+        android:background="@drawable/background_003" >
+
+        <TextView
+            style="@style/TopTitleTextViewStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/more_feedback" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/bodyFrameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/frameLayout_bady_padding"
+        android:paddingRight="@dimen/frameLayout_bady_padding"
+        android:layout_below="@id/topFrameLayout" >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fadingEdge="none"
+            android:scrollbars="none" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/more_item_height"
+                    android:layout_marginTop="@dimen/more_top_margin"
+                    android:background="@drawable/list_background001"
+                    android:clickable="true" >
+
+                    <TextView
+                        android:id="@+id/morePhoneTextView"
+                        style="@style/MoreItemTextViewStyle"
+                        android:text="@string/name" />
+
+                    <EditText
+                        style="@style/MoreItemEditTextStyle"
+                        android:layout_toRightOf="@id/morePhoneTextView"
+                        android:inputType="text" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/more_item_height"
+                    android:layout_marginTop="@dimen/more_top_margin"
+                    android:background="@drawable/list_background001"
+                    android:clickable="true" >
+
+                    <TextView
+                        android:id="@+id/moreNameTextView"
+                        style="@style/MoreItemTextViewStyle"
+                        android:text="@string/phone" />
+
+                    <EditText
+                        style="@style/MoreItemEditTextStyle"
+                        android:layout_toRightOf="@id/moreNameTextView"
+                        android:inputType="phone" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/more_item_height"
+                    android:layout_marginTop="@dimen/more_top_margin"
+                    android:background="@drawable/list_background001"
+                    android:clickable="true" >
+
+                    <TextView
+                        android:id="@+id/moreMailTextView"
+                        style="@style/MoreItemTextViewStyle"
+                        android:text="@string/mail" />
+
+                    <EditText
+                        style="@style/MoreItemEditTextStyle"
+                        android:layout_toRightOf="@id/moreMailTextView"
+                        android:inputType="textEmailAddress" />
+                </RelativeLayout>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/more_top_margin"
+                    android:background="@drawable/list_background007"
+                    android:gravity="top"
+                    android:hint="@string/feedback_hint"
+                    android:inputType="text"
+                    android:padding="5dp"
+                    android:singleLine="false" />
+            </LinearLayout>
+        </ScrollView>
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/backButton"
+        style="@style/BackButtonStyle"
+        android:layout_gravity="bottom|right" />
+
+</RelativeLayout>

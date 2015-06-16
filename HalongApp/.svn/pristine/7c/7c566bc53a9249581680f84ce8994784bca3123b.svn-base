@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/while1" >
+
+    
+
+    <FrameLayout
+        android:id="@+id/topFrameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/top_title_fl_height"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/background_003" >
+
+        <TextView
+            style="@style/TopTitleTextViewStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/bodyFrameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/topFrameLayout" >
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/adViewPager"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:flipInterval="30"
+            android:persistentDrawingCache="animation" />
+
+        <LinearLayout
+            android:id="@+id/pointLinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:orientation="horizontal" >
+        </LinearLayout>
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/footHaLongTextView"
+        style="@style/FootTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/background_001"
+        android:gravity="center"
+        android:padding="@dimen/foot_tv_padding"
+        android:text="@string/halong" />
+
+    <GridView
+        android:id="@+id/mainGridView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/footHaLongTextView"
+        android:layout_below="@id/bodyFrameLayout"
+        android:layout_marginBottom="@dimen/gridview_lose_Spacing"
+        android:fadingEdge="none"
+        android:horizontalSpacing="@dimen/gridview_Spacing"
+        android:listSelector="@android:color/transparent"
+        android:numColumns="3"
+        android:padding="@dimen/gridview_Spacing"
+        android:scrollbars="none"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="@dimen/gridview_Spacing" />
+    
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="left|center_vertical"
+        android:background="@drawable/picture002"
+        android:onClick="backButton" />
+
+</RelativeLayout>

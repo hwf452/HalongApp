@@ -1,0 +1,136 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="TopTitleTextViewStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/top_title_tv_size</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="FootTextViewStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black1</item>
+        <item name="android:textSize">@dimen/foot_title_tv_size</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="BackButtonStyle">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:onClick">backButton</item>
+        <item name="android:background">@drawable/animation4_1</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+
+    <style name="WriteTitleTextViewStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/write_title_tv_size</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="WriteDateTextViewStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:textSize">@dimen/write_date_tv_size</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="WriteLittleTitleTextViewStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/red</item>
+        <item name="android:textSize">@dimen/write_littletitle_tv_size</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="WriteBodyTextViewStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/write_date_tv_size</item>
+    </style>
+
+    <style name="ListItemTextViewStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black1</item>
+        <item name="android:textSize">@dimen/list_item_tv_title_size</item>
+    </style>
+
+    <style name="ListItemBodyTextViewStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/gray1</item>
+        <item name="android:textSize">@dimen/list_item_tv_body_size</item>
+    </style>
+
+    <style name="ListItemDateTextViewStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:textSize">@dimen/list_item_tv_body_size</item>
+    </style>
+
+    <style name="TopNewsInfoTitleTextViewStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/top_news_title_tv_size</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="PopuwindowNewsStyle">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/popuwindow_item_tv_size</item>
+        <item name="android:layout_height">@dimen/popuwindow_news_item_height</item>
+        <item name="android:layout_width">@dimen/popuwindow_item_width</item>
+        <item name="android:background">@drawable/button001_selector</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">@color/while1</item>
+    </style>
+
+    <style name="MoreItemTextViewStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:textSize">@dimen/more_item_tv_size</item>
+        <item name="android:textColor">@color/black1</item>
+        <item name="android:paddingLeft">@dimen/more_item_padding</item>
+    </style>
+
+    <style name="MoreItemImageViewStyle">
+        <item name="android:layout_width">@dimen/more_direction_big</item>
+        <item name="android:layout_height">@dimen/more_direction_big</item>
+        <item name="android:background">@drawable/icon_001</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+    
+    <style name="MoreItemEditTextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:background">@null</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="ChoiceCheckBox">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:button">@null</item>
+        <item name="android:gravity">center</item>
+    </style>
+    
+    <style name="PopupwindowAnimStyle">
+     <item name="android:windowEnterAnimation">@anim/anim_popupwindow_show</item>  
+     <item name="android:windowExitAnimation">@anim/anim_popupwindow_hide</item>  
+</style>
+
+</resources>

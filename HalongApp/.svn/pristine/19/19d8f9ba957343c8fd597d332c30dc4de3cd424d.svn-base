@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">夏浪科技</string>
+    <string name="halong">HALONG</string>
+    <string name="recommend_info">推荐详情</string>
+    <string name="write_title">手机客户端app营销场景模拟</string>
+    <string name="write_date">2012/9/8 13:11:00</string>
+    <string name="write_about">3G时代</string>
+    <string name="write_body">3G营销：手机客户端（app应用）场景模拟\n刘总在一次商务活动中，通过手机访问公司的app手机客户端向客户展示公司产品资料…；\n某公司营销总监陈总，在出差途中，通过登陆公司app手机客户端会员系统，很快的查询到目标客户的相关信息资料…\n小冯到珠海出差，在乘车过程中，通过手机访问某酒店app手机客户端预定系统，预订住房…\n陈小姐通过手机访问商城app手机客户端，在线订购商品…\n杨先生通过手机预约某医院的app手机客户端挂号，顺利到医院就诊…\n胡小姐通过手机查询到某商场的优惠促销活动…\n\n3G时代，app手机客户端会给企业带来什么？\n●降低客户与企业沟通成本，使企业和客户关系更加紧密，增加双方有效交流合作的可能，提升企业效益。\n●解决了目前中小型企业客户关系管理存在的根本问题。\n●解决了企业如何提高品牌价值和品牌使用率问题。\n●帮助企业,提升了客户满意度。\n●帮助企业抢占或垄断本行业商机,电子商务等多种信息服务\n</string>
+    <string name="company_info">公司详情</string>
+    <string name="company_body">\t珠海夏浪信息科技有限公司（简称夏浪科技）是一家以软件开发为核心，提供产品、解决方案和信息服务的专业公司，公司运营中心坐落于珠海行政中心香洲区，研发中心坐落在国家软件产业基地南方软件。 \n\t公司依托珠海大学园区高校资源，与北师大珠海分校、广东科学技术职业学院、北京理工大学珠海学院建立产学研基地，充分利用高等学府人才，拥有强大的技术研发背景和人才支持。公司以软件技术为核心，通过软件与服务的结合，技术与行业管理能力的结合，提供行业解决方案、软件产品、平台及服务，已于2011年通过双软认证。公司专注于一流的软件产品研发，所有的产品均经过科学严谨的论证，高效的开发设计及高标准的测试试验，确保运行系统的稳定性。 \n\t服务创造软件价值，客户的成功就是我们的成功。夏浪科技致力于与客户建立长期的战略伙伴合作关系，以多层次、全过程、全方位的信息技术来支持客户的长期发展。 \n\t夏浪人正意气风发，壮志昂扬的迈步前进，我们愿为各行业在信息化道路上披荆斩棘，共同创造辉煌的事业！\n\n\n[服务宗旨]\n\t\t企业文化：讲真诚，办务实，扛责任，懂回报。\n\t\t服务原则：以您的满意为起点，以我们服务无限为终点。\n\t\t服务价值：客户与我们共同受益。\n\n[管理理念]\n\t\t公司努力打破传统企业严格的、自上而下的垂直管理组织架构，致力于成为兼具创新与高效、既灵活又可扩展、以知识生产为焦点的协作性企业。\n\t\t公司汇聚员工的智慧，不断完善“相互依赖式流程管理”，设计和协调出合适的管理流程，致力于通过符合实际的规范而非仅仅是领导意志进行协作管理。\n\t\t公司倡导人性化管理，积极为员工创造工作上自主发挥的空间、信任并鼓励知识型员工不断创新，做出实际贡献。\n\n[核心竞争力]\n\t\t技术：过硬的研发，精干的工作团队。\n\t\t设计：充分满足客户需求，竭力发挥本身潜力。\n\t\t售后：定期保障，终身跟进。\n\t\t价格：低成本让利客户，最优性价比。\n</string>
+	
+	<string name="news_list">新闻介绍</string>
+	<string name="news_new">最新公告</string>
+	<string name="news_culture">文化活动</string>
+	<string name="news_business">行业动态</string>
+	<string name="news_knowledge">知识殿堂</string>
+	<string name="news_allnews">全部新闻</string>
+	<string name="news_title">大学生移动互联网App创业</string>
+	<string name="news_body">\n\t想从事移动互联网？还在烦恼App应用怎么做？找专业人士帮你忙！创业开始就是这么简单！\n\tMobile First！放下PC“包袱”！今天我们看到，腾讯、百度、阿里、360包括UC自己都在移动互联网领域寻找投资并购的机会。\n\t立志于在移动互联网的大学生或有某行业背景的创业者，用两年左右的时间做出一款好的应用，最后以合理价格被大公司投资或收购不是一件难事。\n\t根据我们夏浪科技多年积累分析，移动互联网发展有两个方向:一是传统互联网业务在移动平台上落地，二是基于移动终端特性针对自己所在行业及专业背景的独有创新。\n\t珠海夏浪信息科技有限公司（Halong）是领先的移动互联网应用解决方案提供商。Halong在行业内基于NEXT-ONE-STAION理念，率先提出为客户提供从顾问咨询、创意策划，到UI设计、用户界面，程序开发、项目实施、云服务、产品推广等移动互联网应用客户端（App）整体解决方案。\n\t我们服务的对象，包括品牌企业、政府单位、尤其是立志从事移动互联网的未来创业精英。\n\t《水流传》宋江文不过押司小吏，武不能横刀立马，却被称为“及时雨”，在“一文钱难倒英雄汉”窘境中，他不断及时出手相救。夏浪科技没有财力像宋江一样地仗义疏才，但我们可以在专业上不断进深，且以恰当的方式与客户进行合作，真心诚意帮助客户，同时可以打造我们的名声和实力。“古人云桃李不言，下自成蹊”就是这个道理。\n\t为了你的创业成功，在移动互联网领域，我们夏浪的口号是“前面有你，后面有我，一起奋斗，点触梦想”。</string>
+	
+	<string name="company_manager">管理架构</string>
+
+	<string name="partner">合作资源</string>
+	<string name="point">●</string>
+	<string name="school">广东科学技术职业学院</string>
+	
+	<string name="product_service">产品与服务</string>
+	<string name="product_title">婚纱写真达人IPAD</string>
+	<string name="product_body">\t商家版，面向所有高端影楼，让影楼脱离传统、轻松同步接单。移动互联网的热潮，为影楼也带来一场颠覆性的革命。抛弃笨重的相册本，新颖炫酷的移动互联网接单，让客人更加眼花缭乱、应接不暇。清晰的最新、最热主题分类，把客户需求一网打尽。</string>
+	<string name="product_date">2013/11/11 11:11:11</string>
+	<string name="seek">搜索</string>
+	<string name="product_body1">\t婚纱·写真达人IPAD App 商家版\n\n\t语 言：中文\n\t大 小：4.3M\n\t支持系统：Android、AndroidPad、iPad、iPhone\n\t支持版本：Android 1.6以上、iOS 4.2以上\n\n\n\t软件简介：婚纱·写真达人（商家版）是一款针对影楼用户群的工具类应用软件。影楼可随时将新的主题样照录入后台系统，在Pad上向客户全方位的展示，摆脱传统的纸质影集的限制。另外，点击“预约”，可直接记录客户的预约信息。\t特色功能\n\n\t全国A级影楼移动店铺随时随地查看；\n\t影楼促销活动，预约即享独家优惠；\n\t欣赏全国影楼多媒体婚纱摄影视频展示；\n\tGSP为用户导航当前位置与影楼路线；\n\t随时了解影楼特色、企业文化、主题风格、介绍等详情；\n\t用户相片晒场，影楼客片展示专题欣赏；\n\t为影楼高端客户提供婚纱照/写真个人“云”相册；\n\t微博一键分享喜欢的影楼及主题；\n\n\n\t""婚纱·写真达人”带来的不光是影楼业的革新，更带来移动互联网时代广告业的生机。影楼企业也能成为广告商。不管是全国版还是店铺版都加载了广告位。影楼可放置自己店内最新活动广告，企业宣传广告等等，广告形式不拘泥于传统图片形式，更可进行多媒体视频播放。移动互联网时代的优势，保证全国覆盖的浏览量，精准的用户定位，企业不再担心广告费打水漂。</string>
+	<string name="product_all">全部产品和服务</string>
+	<string name="product_item">手机客户端软件开发</string>
+	
+	
+	<string name="develop">发展研究室</string>
+	<string name="develop_product">产学研基地</string>
+	<string name="develop_technology">技术沙龙</string>
+	<string name="develop_list_item_title">开发团队接受《中国日报》采访</string>
+	<string name="develop_list_item_body">\t恭喜：夏浪科技（珠海）科技有限公司作为中国唯一移动互联网二维码互动应用APP开发公司接受《中国日报》来访，报告与于2013/3/13发布</string>
+	<string name="develop_list_item_date">2013/11/11 11:11:11</string>
+	
+	<string name="invite">加盟夏浪</string>
+	<string name="invite_school">学校招聘</string>
+	<string name="invite_society">社会招聘</string>
+	<string name="invite_title">招聘App开发技术人员</string>
+	<string name="invite_body">\n工作地点：\n\t\t仅限珠海\n\n岗位职责：\n\t\ta) 负责iOS或Andriod项目App产品开发工作。\n\t\tb) 根据项目需求，分析并给出最优秀的技术解决方案。\n\t\tc) 与界面设计员沟通及合作，按照主管定下的进度完成工作。\n\t\td) 产品的持续优化与用户体验改善。\n\n岗位要求：\n\t\ta) 软件开发专业，具有1年以上网站与程序开发经验；\n\t\tb) 熟悉iOS 或 Andriod开发平台，且有实际经验；\n\t\tc) 具备独立开发的能力、良好的团队精神和积极的工作态度。善于沟通，勇于创新，学习能力强，能够承担一定的工作压力；\n\t\td) 面试时最好携带作品（可以Demo）。\n\n说明：\n\t\t应聘人员请将个人简历和求职信发至info@halong-tech.com，邮件标题请务必使用固定格式“XXX（您的姓名）应聘XXXXXXXXX（应聘职位名称）”，来信必复。\n\n人事咨询QQ：16884596\n</string>
+	<string name="invite_title1">商务代表招聘</string>
+	<string name="invite_body1">\n1、负责公司互联网产品和服务的业务开拓工作\n\n2、热爱销售工作，开拓能力强，能承受工作压力，上进心强，敢于挑战高薪； \n\n3、良好的沟通表达能力，谈判能力，灵活的应变能力，工 作积极主动，具有良好学习能力；\n\n4、入职后有带薪岗前培训、享受正常休假；\n\n5、勤奋第一，不怕吃苦，高度激情的拜访客户取得业绩；\n\n6、销售的基本素质必须具备。客户开发、跟进、谈判、善谈，亲和力强，客户意识强，能为客户提供附加值服务。\n\n\n薪资待遇：\n待遇底薪1500底薪+提成+团队奖金+社保</string>
+	
+	<string name="contact">联系我们</string>
+	
+	<string name="more">更多</string>
+	<string name="more_check_update">检查更新</string>
+	<string name="more_feedback">意见反馈</string>
+	<string name="name">姓名：</string>
+	<string name="mail">邮箱：</string>
+	<string name="phone">电话：</string>
+	<string name="feedback_hint">留下你宝贵的信息</string>
+	<string name="more_download">下载应用</string>
+	<string name="more_about">关于我们</string>
+</resources>

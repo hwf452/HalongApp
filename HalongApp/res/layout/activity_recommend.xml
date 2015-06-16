@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/while1" >
+
+    <FrameLayout
+        android:id="@+id/topFrameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/top_title_fl_height"
+        android:background="@drawable/background_003" >
+
+        <TextView
+            style="@style/TopTitleTextViewStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/recommend_info" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/bodyFrameLayout"
+        android:layout_width="match_parent"
+        android:paddingLeft="@dimen/frameLayout_bady_padding"
+        android:paddingRight="@dimen/frameLayout_bady_padding"
+        android:layout_height="match_parent"
+        android:layout_below="@id/topFrameLayout" >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fadingEdge="none"
+            android:scrollbars="none" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    style="@style/WriteTitleTextViewStyle"
+                    android:layout_marginTop="@dimen/write_title_tv_size"
+                    android:text="@string/write_title" />
+
+                <TextView
+                    style="@style/WriteDateTextViewStyle"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/write_tv_margin"
+                    android:text="@string/write_date" />
+
+                <TextView
+                    style="@style/WriteLittleTitleTextViewStyle"
+                    android:layout_marginTop="@dimen/write_tv_margin"
+                    android:text="@string/write_about" />
+
+                <TextView
+                    style="@style/WriteBodyTextViewStyle"
+                    android:layout_marginTop="@dimen/write_body_margin"
+                    android:text="@string/write_body" />
+            </LinearLayout>
+        </ScrollView>
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/backButton"
+        style="@style/BackButtonStyle"
+        android:layout_gravity="bottom|right" />
+
+</RelativeLayout>

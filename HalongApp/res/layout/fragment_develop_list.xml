@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/while1"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/invite_checkbox_height"
+        android:orientation="horizontal"
+        android:padding="@dimen/invite_checkbox_padding" >
+
+        <CheckBox
+            android:id="@+id/leftCheckBox"
+            style="@style/ChoiceCheckBox"
+            android:background="@drawable/button007_1_selector"
+            android:text="@string/develop_product" />
+
+        <CheckBox
+            android:id="@+id/rightCheckBox"
+            style="@style/ChoiceCheckBox"
+            android:background="@drawable/button007_2_selector"
+            android:text="@string/develop_technology"
+            android:textColor="@color/royal_blue" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ListView
+            android:id="@+id/developListView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:cacheColorHint="@android:color/transparent"
+            android:divider="@null"
+         android:fadingEdge="none"
+            android:listSelector="@android:color/transparent"
+            android:scrollbars="none" >
+        </ListView>
+    </FrameLayout>
+
+</LinearLayout>

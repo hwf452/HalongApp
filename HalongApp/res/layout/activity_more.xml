@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/while1" >
+
+    <FrameLayout
+        android:id="@+id/topFrameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/top_title_fl_height"
+        android:background="@drawable/background_003" >
+
+        <TextView
+            style="@style/TopTitleTextViewStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/more" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/bodyFrameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/frameLayout_bady_padding"
+        android:paddingRight="@dimen/frameLayout_bady_padding"
+        android:layout_below="@id/topFrameLayout" >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fadingEdge="none"
+            android:scrollbars="none" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:id="@+id/checkUpdateRelativeLayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/more_item_height"
+                    android:layout_marginTop="@dimen/more_top_margin"
+                    android:background="@drawable/list_background001"
+                    android:clickable="true" >
+
+                    <TextView
+                        style="@style/MoreItemTextViewStyle"
+                        android:text="@string/more_check_update" />
+
+                    <ImageView
+                        style="@style/MoreItemImageViewStyle"
+                        android:contentDescription="@drawable/icon_001" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <RelativeLayout
+                        android:id="@+id/feedbackRelativeLayout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/more_item_height"
+                        android:layout_marginTop="@dimen/more_top_margin"
+                        android:background="@drawable/list_background002_1"
+                        android:clickable="true" >
+
+                        <TextView
+                            style="@style/MoreItemTextViewStyle"
+                            android:text="@string/more_feedback" />
+
+                        <ImageView
+                            style="@style/MoreItemImageViewStyle"
+                            android:contentDescription="@drawable/icon_001" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/more_item_height"
+                        android:background="@drawable/list_background002_3"
+                        android:clickable="true" >
+
+                        <TextView
+                            style="@style/MoreItemTextViewStyle"
+                            android:text="@string/more_download" />
+
+                        <ImageView
+                            style="@style/MoreItemImageViewStyle"
+                            android:contentDescription="@drawable/icon_001" />
+                    </RelativeLayout>
+
+                    <!--
+                         <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/more_item_height"
+                        android:background="@drawable/list_background002_3"
+                        android:clickable="true" >
+
+                        <TextView
+                            style="@style/MoreItemTextViewStyle"
+                            android:text="@string/more_about" />
+
+                        <ImageView
+                            style="@style/MoreItemImageViewStyle"
+                            android:contentDescription="@drawable/icon_001" />
+                    </RelativeLayout>
+                    -->
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/backButton"
+        style="@style/BackButtonStyle"
+        android:layout_gravity="bottom|right" />
+
+</RelativeLayout>

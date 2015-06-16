@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/while1" >
+
+    <FrameLayout
+        android:id="@+id/topFrameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/top_title_fl_height"
+        android:background="@drawable/background_003" >
+
+        <TextView
+            style="@style/TopTitleTextViewStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/develop" />
+
+        <CheckBox
+            android:id="@+id/isListCheckBox"
+            android:layout_width="@dimen/more_direction_big"
+            android:layout_height="@dimen/more_direction_big"
+            android:layout_gravity="center_vertical|right"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/button004_selector"
+            android:button="@null" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/topFrameLayout" >
+
+        <FrameLayout
+            android:id="@+id/replaceFrmeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+        </FrameLayout>
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/backButton"
+        style="@style/BackButtonStyle"
+        android:layout_gravity="bottom|right" />
+
+</RelativeLayout>

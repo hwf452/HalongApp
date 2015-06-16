@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background_002"
+    android:paddingBottom="@dimen/list_item_bottom_padding"
+    android:paddingLeft="@dimen/list_item_left_padding"
+    android:paddingRight="@dimen/list_item_right_padding"
+    android:paddingTop="@dimen/list_item_top_padding" >
+
+    <ImageView
+        android:id="@+id/nextIconImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:contentDescription="@drawable/icon_001"
+        android:src="@drawable/icon_001" />
+
+    <TextView
+        style="@style/ListItemTextViewStyle"
+        android:layout_alignBottom="@id/nextIconImageView"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@id/nextIconImageView"
+        android:layout_marginRight="25dp"
+        android:singleLine="true"
+        android:text="@string/news_title" />
+
+</RelativeLayout>

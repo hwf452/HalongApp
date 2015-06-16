@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/while1"
+    android:paddingLeft="@dimen/frameLayout_bady_padding"
+    android:paddingRight="@dimen/frameLayout_bady_padding" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fadingEdge="none"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <TextView
+                style="@style/WriteLittleTitleTextViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="@dimen/write_bottom_padding"
+                android:paddingTop="@dimen/write_top_padding"
+                android:text="@string/invite_title1" />
+
+            <TextView
+                style="@style/WriteBodyTextViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/write_bottom_padding"
+                android:text="@string/invite_body1" />
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

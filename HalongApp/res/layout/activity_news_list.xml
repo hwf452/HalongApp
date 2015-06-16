@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/while1" >
+
+    <FrameLayout
+        android:id="@+id/topFrameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/top_title_fl_height" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/top_title_fl_height"
+            android:background="@drawable/background_003" >
+
+            <TextView
+                android:id="@+id/topTitleTextView"
+                style="@style/TopTitleTextViewStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/news_list" />
+
+            <ImageView
+                android:id="@+id/signImageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="3dp"
+                android:contentDescription="@drawable/picture017"
+                android:src="@drawable/picture017"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/topTenImageView"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/top_tv_margin"
+                android:layout_toRightOf="@id/topTitleTextView"
+                android:background="@anim/anim_ten"
+                android:clickable="true"
+                android:contentDescription="@drawable/animation6_2" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/bodyFrameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/topFrameLayout" >
+
+        <ListView
+            android:id="@+id/newsListView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:cacheColorHint="@android:color/transparent"
+            android:fadingEdge="none"
+            android:listSelector="@android:color/transparent"
+            android:scrollbars="none" >
+        </ListView>
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/backButton"
+        style="@style/BackButtonStyle"
+        android:layout_gravity="bottom|right" />
+
+</RelativeLayout>

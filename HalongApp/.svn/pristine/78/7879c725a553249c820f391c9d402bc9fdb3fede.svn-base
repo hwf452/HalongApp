@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp" >
+
+    <RelativeLayout
+        android:id="@+id/colorRelativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="-5dp"
+        android:background="@drawable/background_004" >
+
+        <ImageView
+            android:id="@+id/fiveImageView"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/product_left_item_margin"
+            android:background="@drawable/animation2_1"
+            android:scaleType="fitXY" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/typeRelativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="@dimen/product_left_item_margin"
+        android:background="@color/while1" >
+
+        <TextView
+            android:id="@+id/pointTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/list_item_left_padding"
+            android:text="@string/point"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/typeTextView"
+            style="@style/ListItemTextViewStyle"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/list_item_left_margin"
+            android:layout_toRightOf="@id/pointTextView"
+            android:singleLine="true"
+            android:textSize="18sp"
+            android:text="@string/school" />
+    </RelativeLayout>
+
+</FrameLayout>

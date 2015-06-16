@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/while1" >
+
+    <FrameLayout
+        android:id="@+id/topFrameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/top_title_fl_height"
+        android:background="@drawable/background_003" >
+
+        <TextView
+            style="@style/TopNewsInfoTitleTextViewStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="@string/news_title" />
+    </FrameLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/topFrameLayout"
+        android:paddingLeft="@dimen/frameLayout_bady_padding"
+        android:paddingRight="@dimen/frameLayout_bady_padding"
+        android:fadingEdge="none"
+        android:scrollbars="none" >
+
+        <TextView
+            android:id="@+id/infoTextView"
+            style="@style/WriteBodyTextViewStyle"
+            android:paddingBottom="@dimen/write_bottom_padding"
+            android:paddingTop="@dimen/write_top_padding"
+            android:clickable="true"
+            android:text="@string/news_body" />
+    </ScrollView>
+</RelativeLayout>

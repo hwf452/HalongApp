@@ -1,0 +1,61 @@
+<resources>
+
+    
+    <dimen name="scrollview_margin">15dp</dimen>
+    <dimen name="write_tv_margin">5dp</dimen>
+    <dimen name="top_tv_margin">10dp</dimen>
+    <dimen name="write_body_margin">15dp</dimen>
+    <dimen name="list_item_left_margin">5dp</dimen>
+    <dimen name="list_top_margin">15dp</dimen>
+    <dimen name="more_top_margin">15dp</dimen>
+    <dimen name="product_left_item_margin">20dp</dimen>
+    
+    <dimen name="top_title_fl_height">50dp</dimen>
+    <dimen name="popuwindow_news_item_height">40dp</dimen>
+    <dimen name="popuwindow_news_height">200dp</dimen>
+    <dimen name="popuwindow_news_height1">-200dp</dimen>
+    <dimen name="develop_list_item_height">95dp</dimen>
+    <dimen name="invite_checkbox_height">60dp</dimen>
+    <dimen name="more_item_height">50dp</dimen>
+    <dimen name="product_list_item_height">90dp</dimen>
+    
+    <dimen name="popuwindow_item_width">80dp</dimen>
+    
+    <dimen name="more_direction_big">30dp</dimen>
+    <dimen name="grid_item_big">90dp</dimen>
+    <dimen name="plane_big">50dp</dimen>
+    
+    
+    
+    <dimen name="top_title_tv_size">25sp</dimen>
+    <dimen name="top_news_title_tv_size">20sp</dimen>
+    <dimen name="foot_title_tv_size">20sp</dimen>
+    <dimen name="write_title_tv_size">20sp</dimen>
+    <dimen name="write_date_tv_size">12sp</dimen>
+    <dimen name="write_littletitle_tv_size">16sp</dimen>
+    <dimen name="list_item_tv_title_size">15sp</dimen>
+    <dimen name="list_item_tv_body_size">10sp</dimen>
+    <dimen name="popuwindow_item_tv_size">15sp</dimen>
+    <dimen name="more_item_tv_size">22sp</dimen>
+    
+    <dimen name="gridview_Spacing">8dp</dimen>
+    <dimen name="gridview_lose_Spacing">-8dp</dimen>
+    
+    <dimen name="frameLayout_bady_padding">15dp</dimen>
+    <dimen name="gridview_padding">5dp</dimen>
+    <dimen name="foot_tv_padding">7dp</dimen>
+    <dimen name="list_item_padding">8dp</dimen>
+    <dimen name="list_item_left_padding">15dp</dimen>
+    <dimen name="list_item_right_padding">15dp</dimen>
+    <dimen name="list_item_top_padding">20dp</dimen>
+    <dimen name="list_item_bottom_padding">15dp</dimen>
+    <dimen name="write_top_padding">10dp</dimen>
+    <dimen name="write_bottom_padding">10dp</dimen>
+    <dimen name="more_item_padding">15dp</dimen>
+    <dimen name="invite_checkbox_padding">15dp</dimen>
+     
+    <dimen name="slidingmenu_offset">80dp</dimen>
+    <dimen name="list_padding">10dp</dimen>
+    <dimen name="shadow_width">10dp</dimen>
+
+</resources>

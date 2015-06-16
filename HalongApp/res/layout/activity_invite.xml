@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/while1" >
+
+    <FrameLayout
+        android:id="@+id/topFrameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/top_title_fl_height"
+        android:background="@drawable/background_003" >
+
+        <TextView
+            style="@style/TopTitleTextViewStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/invite" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/invite_checkbox_height"
+        android:layout_below="@id/topFrameLayout"
+        android:orientation="horizontal"
+        android:padding="@dimen/invite_checkbox_padding" >
+
+        <CheckBox
+            android:id="@+id/leftCheckBox"
+            style="@style/ChoiceCheckBox"
+            android:background="@drawable/button007_1_selector"
+            android:text="@string/invite_society" />
+
+        <CheckBox
+            android:id="@+id/rightCheckBox"
+            style="@style/ChoiceCheckBox"
+            android:background="@drawable/button007_2_selector"
+            android:text="@string/invite_school"
+            android:textColor="@color/royal_blue" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/linearLayout" >
+
+        <FrameLayout
+            android:id="@+id/inviteFrameLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/backButton"
+        style="@style/BackButtonStyle"
+        android:layout_gravity="bottom|right" />
+
+</RelativeLayout>
